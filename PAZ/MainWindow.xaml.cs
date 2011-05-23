@@ -11,6 +11,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using PAZ.API;
 
 namespace PAZ
 {
@@ -26,7 +27,6 @@ namespace PAZ
         public MainWindow()
         {
             InitializeComponent();
-
         }
 
         private void buttonExportPDF_Click(object sender, RoutedEventArgs e)
